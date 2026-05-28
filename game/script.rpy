@@ -15,7 +15,7 @@ label start:
 
     menu:
 
-        " What? ":
+        " That's cheeseburher! ":
             jump ending
         
         " Oh hell yeah! ":
