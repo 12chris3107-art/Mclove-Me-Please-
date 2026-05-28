@@ -25,8 +25,8 @@
 /dialogue.txt
 /strings.json
 
-# Config files for vscode
+# User config files for vscode
 /.vscode/*
 
-# Keep for project consistency
+# Keep for team-wide settings
 !/.vscode/extensions.json
