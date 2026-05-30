@@ -2,12 +2,13 @@
 
 define c = Character("Cheese") 
 
+image bg mcdonalds kitchen = Transform("bg mcdonalds kitchen.jpg", zoom=2.0, xalign=0.5, yalign=0.5)
 
 # The game starts here.
 
 label start:
 
-    scene bg room
+    scene bg mcdonalds kitchen
 
     show cheese test at truecenter
 
