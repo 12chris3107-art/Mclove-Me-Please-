@@ -1,4 +1,4 @@
-﻿# Declare characters used by this game.
+﻿# Definitions for characters, images go here.
 
 define c = Character("Cheese") 
 
@@ -18,14 +18,21 @@ label start:
     menu:
 
         " That's cheeseburher! ":
-            jump ending
+            jump bad_ending
         
         " Oh hell yeah! ":
-            jump ending
+            jump good_ending
 
 
-label ending:
-    c " End of demo. "
+label bad_ending:
+    c " filthy peasant! the proletariat will never be free! "
+
+    # This ends the game.
+
+    return
+
+label good_ending:
+    c " ugg! uh g-good peasant! "
 
     # This ends the game.
 
