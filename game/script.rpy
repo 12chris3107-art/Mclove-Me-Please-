@@ -8,17 +8,4 @@ image bg mcdonalds kitchen = Transform("bg_mcdonalds_kitchen.jpg", zoom=2.0, xal
 # The game starts here.
 
 label start:
-
-    scene bg mcdonalds kitchen
-
-    show cheese test at truecenter
-
-    c " lick my wrapper, peasant! "
-
-    menu:
-
-        " That's cheeseburher! ":
-            jump bad_ending
-        
-        " Oh hell yeah! ":
-            jump good_ending
+    jump intro
