@@ -22,18 +22,3 @@ label start:
         
         " Oh hell yeah! ":
             jump good_ending
-
-
-label bad_ending:
-    c " filthy peasant! the proletariat will never be free! "
-
-    # This ends the game.
-
-    return
-
-label good_ending:
-    c " ugg! uh g-good peasant! "
-
-    # This ends the game.
-
-    return
